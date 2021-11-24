@@ -16,16 +16,21 @@ let find = false;
 // gli dico dove andare a controllare se è presente l'email
 for (let i = 0; i <= lista.length; i++) {
 
-    const element = lista[i];
-
-    if (email == element) {
-        console.log('email valida');
+    if (email == lista[i]) {
         // se find = true l'email è presente nella lista
         find = true;
     } 
 }
 
+// ora posso mostrare all'utente se l'email è valida o no
 console.log(find);
+// se find = true allora l'email è valida
+if (find == true) {
+    console.log("l'email è valida");
+    // altrimenti l'email NON è valida
+} else {
+    console.log("l'email NON è valida");
+}
 
 
 

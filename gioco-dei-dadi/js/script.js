@@ -18,5 +18,5 @@ if (numberRandomUser > numberRandomComputer) {
     console.log(nameUser, 'La partita si è conclusa in parità');
 }
 // mostro all'utente i numeri estratti
-console.log('Il Tuo Numero', numberRandomUser);
-console.log('Il numero del computer', numberRandomComputer);
+console.log('Il Tuo Numero:', numberRandomUser);
+console.log('Il numero del computer:', numberRandomComputer);

@@ -13,7 +13,7 @@ const numberRandomComputer = Math.floor(Math.random() * 6) + 1;
 if (numberRandomUser > numberRandomComputer) {
     console.log(nameUser, 'Hai vinto con il numero', numberRandomUser);
 } else if (numberRandomUser < numberRandomComputer) {
-    console.log(nameUser, 'Hai perso il numero del computer', numberRandomUser, 'è più alto del tuo');
+    console.log(nameUser, 'Hai perso, il numero', numberRandomComputer, 'del computer è più alto del tuo');
 } else {
     console.log(nameUser, 'La partita si è conclusa in parità');
 }
